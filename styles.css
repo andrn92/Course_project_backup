@@ -1,0 +1,94 @@
+/* сброс стилей браузера */
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp,small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1.2;
+}
+ol { 
+	padding-left: 1.4em;
+	list-style: decimal;
+}
+ul {
+	padding-left: 1.4em;
+	list-style: square;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} 
+/* конец кода сброса стилей браузера */
+
+.main_content {
+    font-family: "Arial Black", Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+h1 {
+    font-size: 1.7em;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(200, 200, 200, .6);
+
+}
+
+h2 {
+    font-size: 1.4em;
+    font-weight: 600;
+    border-bottom: 2px solid rgba(200, 200, 200, .6);
+    padding-bottom: 10px;
+
+}
+
+h3 {
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.task {
+    margin-top: 10px;
+}
+
+.task__list {
+    margin-top: 10px;
+}
+
+.attention {
+    margin-top: 10px;
+    font-style: italic;
+}
+
+ol {
+    margin-left: 10px;
+}
+
+.code_json {
+    margin-left: -30px;
+    padding-left: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(37, 15, 133);
+    background-color: rgba(250, 250, 250, .9);
+}
+
+
