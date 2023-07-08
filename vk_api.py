@@ -23,10 +23,8 @@ class VkUser:
             name_2 = item['date']
             if str(name_1) not in dict_urls:
                 name = str(name_1)
-                dict_urls[name] = ''
             else:
                 name = str(name_1) + str(name_2)
-                dict_urls[name] = ''
             types_size = {}
             for image in item['sizes']:
                 types_size[image['type']] = image['url']

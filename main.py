@@ -29,7 +29,7 @@ class YaDisk:
 
 if __name__ == '__main__':
     vk = VkUser()
-	user_id = input('Enter id user VKontakte: ')
+    user_id = input('Enter id user VKontakte: ')
     dict_urls = vk.get_photos(user_id)
     
     token_ya = input('Enter Yandex token: ')
